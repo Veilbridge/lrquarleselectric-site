@@ -1109,20 +1109,20 @@
         <div class="form-row">
           <div class="form-group">
             <label>First Name</label>
-            <input type="text" placeholder="John" autocomplete="given-name" />
+          <input type="text" name="first_name" placeholder="John" autocomplete="given-name" /> 
           </div>
           <div class="form-group">
             <label>Last Name</label>
-            <input type="text" placeholder="Smith" autocomplete="family-name" />
+            <input type="text" name="last_name" placeholder="Smith" autocomplete="family-name" />
           </div>
         </div>
         <div class="form-group">
           <label>Phone Number</label>
-          <input type="tel" placeholder="(555) 000-0000" autocomplete="tel" />
+          <input type="tel" name="phone" placeholder="(555) 000-0000" autocomplete="tel" />
         </div>
         <div class="form-group">
           <label>Service Needed</label>
-          <select>
+          <select name="service">
             <option value="">Select a service...</option>
             <option>Residential Electrical</option>
             <option>Commercial Electrical</option>
@@ -1135,7 +1135,7 @@
         </div>
         <div class="form-group">
           <label>Tell us about your project</label>
-          <textarea placeholder="What do you need done? Where are you located?"></textarea>
+        <textarea name="message" placeholder="What do you need done? Where are you located?"></textarea>  
         </div>
         <button type="submit" class="btn-submit">Send Request</button>
         </form>
